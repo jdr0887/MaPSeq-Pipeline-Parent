@@ -94,6 +94,16 @@
       	<version>${mapseq.distribution.version}</version>
       </dependency>
       <dependency>
+      	<groupId>edu.unc.mapseq.distribution.mapseq-dao</groupId>
+      	<artifactId>mapseq-dao-soap</artifactId>
+      	<version>${mapseq.distribution.version}</version>
+      </dependency>
+      <dependency>
+      	<groupId>edu.unc.mapseq.distribution.mapseq-dao</groupId>
+      	<artifactId>mapseq-dao-rest</artifactId>
+      	<version>${mapseq.distribution.version}</version>
+      </dependency>
+      <dependency>
       	<groupId>edu.unc.mapseq.mapseq-dao</groupId>
       	<artifactId>mapseq-dao-api</artifactId>
       	<version>${mapseq.version}</version>
