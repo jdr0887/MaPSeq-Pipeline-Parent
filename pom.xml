@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.unc.mapseq</groupId>
   <artifactId>pipeline</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>pom</packaging>
   <properties>
     <mapseq.version>0.3.12</mapseq.version>
@@ -24,7 +24,7 @@
   <scm>
     <developerConnection>scm:git:ssh://${user.name}@code.renci.org/gitroot/mps_parent_pl</developerConnection>
     <connection>scm:git:ssh://developername@code.renci.org/gitroot/mps_parent_pl</connection>
-    <tag>HEAD</tag>
+    <tag>pipeline-0.0.1</tag>
   </scm>
   <dependencyManagement>
     <dependencies>
