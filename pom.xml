@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
     <groupId>edu.unc.mapseq</groupId>
     <artifactId>mapseq</artifactId>
-    <version>0.0.16</version>
+    <version>0.0.18</version>
   </parent>
   <name>MaPSeq Pipeline Parent</name>
   <modelVersion>4.0.0</modelVersion>
@@ -11,8 +12,8 @@
   <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <mapseq.version>0.3.12</mapseq.version>
-    <mapseq.distribution.version>0.3.9-SNAPSHOT</mapseq.distribution.version>
+    <mapseq.version>0.4.3</mapseq.version>
+    <mapseq.distribution.version>0.4.2</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
@@ -87,6 +88,11 @@
       	<groupId>edu.unc.mapseq</groupId>
       	<artifactId>mapseq-workflow-api</artifactId>
       	<version>${mapseq.version}</version>
+      </dependency>
+      <dependency>
+      	<groupId>edu.unc.mapseq.distribution</groupId>
+      	<artifactId>mapseq-workflow-impl</artifactId>
+      	<version>${mapseq.distribution.version}</version>
       </dependency>
       <dependency>
       	<groupId>edu.unc.mapseq.distribution</groupId>
@@ -176,4 +182,62 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <build>
+    <plugins>
+      <plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-javadoc-plugin</artifactId>
+	<version>${maven.javadoc.plugin.version}</version>
+	<!-- <configuration> -->
+	<!--   <additionalparam>-Xdoclint:none</additionalparam> -->
+	<!-- </configuration> -->
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>${maven.site.plugin.version}</version>
+        <configuration>
+	  <reportPlugins>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-project-info-reports-plugin</artifactId>
+	      <version>${maven.project.info.reports.plugin.version}</version>
+	      <configuration>
+		<dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+		<dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+	      </configuration>
+	      <reports>
+	      </reports>
+	    </plugin>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-javadoc-plugin</artifactId>
+	      <version>${maven.javadoc.plugin.version}</version>
+	      <!-- <configuration> -->
+	      <!-- 	<additionalparam>-Xdoclint:none</additionalparam> -->
+	      <!-- </configuration> -->
+	    </plugin>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-jxr-plugin</artifactId>
+	      <version>${maven.jxr.plugin.version}</version>
+	      <configuration>
+		<aggregate>true</aggregate>
+	      </configuration>
+	    </plugin>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-surefire-report-plugin</artifactId>
+	      <version>${maven.surefire.report.plugin.version}</version>
+	    </plugin>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-checkstyle-plugin</artifactId>
+	      <version>${maven.checkstyle.plugin.version}</version>
+	    </plugin>
+	  </reportPlugins>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
