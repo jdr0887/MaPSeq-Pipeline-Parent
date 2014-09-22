@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <properties>
     <mapseq.version>0.5.5</mapseq.version>
-    <mapseq.distribution.version>0.5.5</mapseq.distribution.version>
+    <mapseq.distribution.version>0.5.8</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
@@ -23,9 +23,9 @@
     </license>
   </licenses>
   <scm>
-    <developerConnection>scm:git:ssh://${user.name}@code.renci.org/gitroot/mps_parent_pl</developerConnection>
-    <connection>scm:git:ssh://developername@code.renci.org/gitroot/mps_parent_pl</connection>
-    <tag>HEAD</tag>
+    <url>https://github.com/jdr0887/MaPSeq-Pipeline-Parent</url>
+    <developerConnection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-Parent.git</developerConnection>
+    <connection>scm:git:git@github.com:jdr0887/MaPSeq-Pipeline-Parent.git</connection>
   </scm>
   <dependencyManagement>
     <dependencies>
