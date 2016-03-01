@@ -126,25 +126,15 @@
       	<version>${activemq.version}</version>
       </dependency>
       <dependency>
-      	<groupId>org.apache.felix</groupId>
-      	<artifactId>org.apache.felix.gogo.runtime</artifactId>
-      	<version>0.10.0</version>
-      </dependency>
-      <dependency>
 	<groupId>org.apache.felix</groupId>
 	<artifactId>org.osgi.core</artifactId>
 	<version>1.4.0</version>
       </dependency>
       <dependency>
-      	<groupId>org.apache.karaf</groupId>
-      	<artifactId>org.apache.karaf.util</artifactId>
-      	<version>${karaf.version}</version>
-      </dependency>
-      <dependency>
-      	<groupId>org.apache.karaf.shell</groupId>
-      	<artifactId>org.apache.karaf.shell.console</artifactId>
-      	<version>${karaf.version}</version>
-      </dependency>    
+	<groupId>org.apache.karaf.shell</groupId>
+	<artifactId>org.apache.karaf.shell.core</artifactId>
+      	<version>${karaf.version}</version>      
+      </dependency>                
       <dependency>
       	<groupId>org.apache.geronimo.specs</groupId>
       	<artifactId>geronimo-jms_1.1_spec</artifactId>
