@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <properties>
     <mapseq.version>0.6.7</mapseq.version>
-    <mapseq.distribution.version>0.6.13</mapseq.distribution.version>
+    <mapseq.distribution.version>0.6.14</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
@@ -169,7 +169,6 @@
       	<groupId>org.osgi</groupId>
       	<artifactId>org.osgi.core</artifactId>
       	<version>5.0.0</version>
-      	<scope>provided</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>
