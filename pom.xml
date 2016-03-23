@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <properties>
     <mapseq.version>0.6.13</mapseq.version>
-    <mapseq.distribution.version>0.6.25</mapseq.distribution.version>
+    <mapseq.distribution.version>0.6.26</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
@@ -91,10 +91,15 @@
       	<version>${mapseq.distribution.version}</version>
       </dependency>
       <dependency>
-      	<groupId>edu.unc.mapseq.distribution</groupId>
-      	<artifactId>mapseq-modules</artifactId>
+      	<groupId>edu.unc.mapseq.distribution.modules</groupId>
+      	<artifactId>mapseq-module-core</artifactId>
       	<version>${mapseq.distribution.version}</version>
       </dependency>
+      <dependency>
+      	<groupId>edu.unc.mapseq.distribution.modules</groupId>
+      	<artifactId>mapseq-module-sequencing</artifactId>
+      	<version>${mapseq.distribution.version}</version>
+      </dependency>      
       <dependency>
       	<groupId>edu.unc.mapseq.distribution.mapseq-dao</groupId>
       	<artifactId>mapseq-dao-soap</artifactId>
