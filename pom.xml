@@ -3,7 +3,7 @@
   <parent>
     <groupId>edu.unc.mapseq</groupId>
     <artifactId>mapseq</artifactId>
-    <version>0.1.21</version>
+    <version>0.1.22</version>
   </parent>
   <name>MaPSeq Pipeline Parent</name>
   <modelVersion>4.0.0</modelVersion>
@@ -12,8 +12,8 @@
   <version>0.6.29-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <mapseq.version>0.6.14</mapseq.version>
-    <mapseq.distribution.version>0.6.30</mapseq.distribution.version>
+    <mapseq.version>0.6.16</mapseq.version>
+    <mapseq.distribution.version>0.6.31</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
