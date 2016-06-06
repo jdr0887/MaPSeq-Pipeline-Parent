@@ -12,8 +12,8 @@
   <version>0.6.38-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <mapseq.version>0.6.21</mapseq.version>
-    <mapseq.distribution.version>0.6.44</mapseq.distribution.version>
+    <mapseq.version>0.6.22</mapseq.version>
+    <mapseq.distribution.version>0.6.45</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
