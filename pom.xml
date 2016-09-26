@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <properties>
     <mapseq.version>0.6.35</mapseq.version>
-    <mapseq.distribution.version>0.6.64</mapseq.distribution.version>
+    <mapseq.distribution.version>0.6.65</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
