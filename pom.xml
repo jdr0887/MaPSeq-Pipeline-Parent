@@ -3,7 +3,7 @@
   <parent>
     <groupId>edu.unc.mapseq</groupId>
     <artifactId>mapseq</artifactId>
-    <version>0.1.31</version>
+    <version>0.1.32</version>
   </parent>
   <name>MaPSeq Pipeline Parent</name>
   <modelVersion>4.0.0</modelVersion>
@@ -12,8 +12,9 @@
   <version>0.6.60-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <mapseq.version>0.6.42</mapseq.version>
-    <mapseq.distribution.version>0.6.77</mapseq.distribution.version>
+    <mapseq.version>0.6.43</mapseq.version>
+    <mapseq.modules.version>0.6.1</mapseq.modules.version>
+    <mapseq.distribution.version>0.6.78</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
@@ -96,24 +97,24 @@
       	<version>${mapseq.distribution.version}</version>
       </dependency>      
       <dependency>
-      	<groupId>edu.unc.mapseq.distribution.mapseq-modules</groupId>
+      	<groupId>edu.unc.mapseq.modules</groupId>
       	<artifactId>mapseq-module-core</artifactId>
-      	<version>${mapseq.distribution.version}</version>
+      	<version>${mapseq.modules.version}</version>
       </dependency>
       <dependency>
-      	<groupId>edu.unc.mapseq.distribution.mapseq-modules</groupId>
+      	<groupId>edu.unc.mapseq.modules</groupId>
       	<artifactId>mapseq-module-sequencing</artifactId>
-      	<version>${mapseq.distribution.version}</version>
+      	<version>${mapseq.modules.version}</version>
       </dependency>      
       <dependency>
-      	<groupId>edu.unc.mapseq.distribution.mapseq-dao</groupId>
+      	<groupId>edu.unc.mapseq.mapseq-dao</groupId>
       	<artifactId>mapseq-dao-soap</artifactId>
-      	<version>${mapseq.distribution.version}</version>
+      	<version>${mapseq.version}</version>
       </dependency>
       <dependency>
-      	<groupId>edu.unc.mapseq.distribution.mapseq-dao</groupId>
+      	<groupId>edu.unc.mapseq.mapseq-dao</groupId>
       	<artifactId>mapseq-dao-rest</artifactId>
-      	<version>${mapseq.distribution.version}</version>
+      	<version>${mapseq.version}</version>
       </dependency>
       <dependency>
       	<groupId>edu.unc.mapseq.mapseq-dao</groupId>
