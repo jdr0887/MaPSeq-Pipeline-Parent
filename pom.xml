@@ -12,9 +12,9 @@
   <version>0.6.62-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <mapseq.version>0.6.44</mapseq.version>
-    <mapseq.modules.version>0.6.4</mapseq.modules.version>
-    <mapseq.distribution.version>0.6.79</mapseq.distribution.version>
+    <mapseq.version>0.6.45</mapseq.version>
+    <mapseq.modules.version>0.6.5</mapseq.modules.version>
+    <mapseq.distribution.version>0.6.80</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
