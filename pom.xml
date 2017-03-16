@@ -13,9 +13,9 @@
   <packaging>pom</packaging>
   <properties>
     <maven.site.plugin.skip>false</maven.site.plugin.skip>    
-    <mapseq.version>0.6.50</mapseq.version>
-    <mapseq.modules.version>0.6.15</mapseq.modules.version>
-    <mapseq.distribution.version>0.6.90</mapseq.distribution.version>
+    <mapseq.version>0.6.53</mapseq.version>
+    <mapseq.modules.version>0.6.19</mapseq.modules.version>
+    <mapseq.distribution.version>0.6.93</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
