@@ -14,8 +14,8 @@
   <properties>
     <maven.site.plugin.skip>false</maven.site.plugin.skip>    
     <mapseq.version>0.6.53</mapseq.version>
-    <mapseq.modules.version>0.6.27</mapseq.modules.version>
-    <mapseq.distribution.version>0.6.100</mapseq.distribution.version>
+    <mapseq.modules.version>0.6.28</mapseq.modules.version>
+    <mapseq.distribution.version>0.6.101</mapseq.distribution.version>
   </properties>
   <licenses>
     <license>
